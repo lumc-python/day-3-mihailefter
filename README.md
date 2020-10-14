@@ -21,6 +21,8 @@ character and sequence lines. We are only concerned with the sequence line.
 - Find out how to change your script so that it can read from
   `data/challenge.fa.gz` without unzipping the file first (hint: check standard
   library).
+- Can you add a command line argument parser such that you are able to specify
+  the path towards the input file from the command line?
 - Can you change the parser so that there is an option flag to tell the
   program whether the input file is gzipped or not?
 - Can you change your script so that it works for any N-mers instead of for
